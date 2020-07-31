@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# from openpyxl import load_workbook
-import openpyxl
+from openpyxl import load_workbook
 
 wb = load_workbook(filename = 'student.xlsx')
 sheet = wb['Sheet1']
